@@ -1,0 +1,35 @@
+.Header {
+    display: flex;
+    align-items: center;
+    padding: 0px 80px;
+    background: #282c34;
+    width: 100%;
+    
+}
+
+.Header .left h2 {
+    color: cyan;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.Header .left {
+    width: 50%;
+}
+
+.Header .right {
+    margin-left: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.Header .right a {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: hsla(0,0%,100%,.85);
+    text-decoration: none;
+    margin: 0 15px;
+
+}
