@@ -4,7 +4,8 @@ var users = [
     "name": "Leanne Graham",
     "username": "Bret",
     "img" : "http://4.bp.blogspot.com/-NahUaexOqVU/T8mVxrxkWSI/AAAAAAAAABE/ZWGO81RLs30/s1600/beautiful-old-people-photography-part-31.jpg",
-    "salary" : 500000,
+    "salary" : 60500,
+    "profession" : "Software Engineer",
     "email": "Sincere@april.biz",
     "address": {
       "street": "Kulas Light",
@@ -29,7 +30,8 @@ var users = [
     "name": "Ervin Howell",
     "username": "Antonette",
     "img" : "https://resources.stuff.co.nz/content/dam/images/1/d/2/j/1/5/image.related.StuffLandscapeSixteenByNine.1420x800.1d2j1s.png/1469340205998.jpg",
-    "salary" : 500000,
+    "salary" : 86002,
+    "profession" : "Data Scientist",
     "email": "Shanna@melissa.tv",
     "address": {
       "street": "Victor Plains",
@@ -54,7 +56,8 @@ var users = [
     "name": "Clementine Bauch",
     "username": "Samantha",
     "img" : "http://www.top43dprinting.com/wp-content/uploads/2014/07/Picture-of-person.png",
-    "salary" : 500000,
+    "salary" : 32455,
+    "profession" : "Web Designer",
     "email": "Nathan@yesenia.net",
     "address": {
       "street": "Douglas Extension",
@@ -79,7 +82,8 @@ var users = [
     "name": "Patricia Lebsack",
     "username": "Karianne",
     "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Pierre-Person.jpg/220px-Pierre-Person.jpg",
-    "salary" : 500000,
+    "salary" : 100520,
+    "profession" : "Project Manager",
     "email": "Julianne.OConner@kory.org",
     "address": {
       "street": "Hoeger Mall",
@@ -104,7 +108,8 @@ var users = [
     "name": "Chelsey Dietrich",
     "username": "Kamren",
     "img" : "https://marconisida.com/wp-content/uploads/2015/02/frustrated-person-400x284.png",
-    "salary" : 500000,
+    "salary" : 43221,
+    "profession" : "FrontEnd Developer",
     "email": "Lucio_Hettinger@annie.ca",
     "address": {
       "street": "Skiles Walks",
@@ -129,7 +134,8 @@ var users = [
     "name": "Mrs. Dennis Schulist",
     "username": "Leopoldo_Corkery",
     "img" : "https://news.nd.edu/assets/113411/james_brockmole_300.jpg",
-    "salary" : 500000,
+    "salary" : 112880,
+    "profession" : "Heart Specielist",
     "email": "Karley_Dach@jasper.info",
     "address": {
       "street": "Norberto Crossing",
@@ -154,7 +160,8 @@ var users = [
     "name": "Kurtis Weissnat",
     "username": "Elwyn.Skiles",
     "img" : "http://blogs.uww.edu/brada252/files/2016/10/hostgator-alternative-frustrated-person.jpg",
-    "salary" : 500000,
+    "salary" : 32546,
+    "profession" : "Software Engineer",
     "email": "Telly.Hoeger@billy.biz",
     "address": {
       "street": "Rex Trail",
@@ -176,10 +183,11 @@ var users = [
   },
   {
     "id": 8,
-    "name": "Nicholas Runolfsdottir V",
+    "name": "Nicholas Runolfsdottir",
     "username": "Maxime_Nienow",
     "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Pascale_fontenel_personne_16394.JPG/1200px-Pascale_fontenel_personne_16394.JPG",
-    "salary" : 500000,
+    "salary" : 227788,
+    "profession" : "BackEnd Developer",
     "email": "Sherwood@rosamond.me",
     "address": {
       "street": "Ellsworth Summit",
@@ -204,7 +212,8 @@ var users = [
     "name": "Glenna Reichert",
     "username": "Delphine",
     "img" : "https://i.ytimg.com/vi/B6rcGplN9gg/maxresdefault.jpg",
-    "salary" : 500000,
+    "salary" : 93544,
+    "profession" : "Quality Specielist",
     "email": "Chaim_McDermott@dana.io",
     "address": {
       "street": "Dayna Park",
@@ -229,7 +238,8 @@ var users = [
     "name": "Clementina DuBuque",
     "username": "Moriah.Stanton",
     "img" : "http://www.twohandstech.com/wp-content/uploads/2013/10/frustrated-businessman.png",
-    "salary" : 500000,
+    "salary" : 50050,
+    "profession" : "Social Media Marketer",
     "email": "Rey.Padberg@karina.biz",
     "address": {
       "street": "Kattie Turnpike",
@@ -254,7 +264,8 @@ var users = [
     "name": "Concepcion Bailey",
     "username": "Concepcion.Bailey",
     "img" : "https://www.scienceabc.com/wp-content/uploads/2015/11/singing-bad.jpg",
-    "salary" : 5000000,
+    "salary" : 59500,
+    "profession" : "Search Engine Specielist",
     "email": "concepcionbailey@manufact.com",
     "address": {
       "street": "Kattie Tuarnpike",
@@ -277,7 +288,8 @@ var users = [
     "name": "Buckley Russell",
     "username": "Buckley.Russell",
     "img" : "http://www.myphotocentral.com/wp-content/uploads/2015/12/A-Few-Tips-on-Better-People-Photography.jpg",
-    "salary" : 5000000,
+    "salary" : 35777,
+    "profession" : "Web Developer",
     "email": "buckleyrussell@plasmosis.com",
     "address": {
       "street": "995 Cedar Street",
@@ -300,7 +312,8 @@ var users = [
     "name": "Madeline Nichols",
     "username": "Madeline.Nichols",
     "img" : "https://www.publicdomainpictures.net/pictures/210000/nahled/business-woman-with-a-headset-1488653362PBH.jpg",
-    "salary" : 5000000,
+    "salary" : 99000,
+    "profession" : "Data Scientist",
     "email": "madelinenichols@printspan.com",
     "address": {
       "street": "360 Rapelye Street",
@@ -323,7 +336,8 @@ var users = [
     "name": "Lynn Ortega",
     "username": "Lynn.Ortega",
     "img" : "https://thumbs.dreamstime.com/z/portrait-attractive-businessman-standing-14242725.jpg",
-    "salary" : 5000000,
+    "salary" : 88000,
+    "profession" : "Medicine Specielist",
     "email": "lynnortega@ozean.com",
     "address": {
       "street": "559 Oliver Street",
@@ -346,7 +360,8 @@ var users = [
     "name": "Casey Rush",
     "username": "Casey.Rush",
     "img" : "https://img.pngio.com/businessman-png-download-businessman-png-1997_2134.png",
-    "salary" : 5000000,
+    "salary" : 85000,
+    "profession" : "Web Developer",
     "email": "caseyrush@netbook.com",
     "address": {
       "street": "203 Coffey Street",

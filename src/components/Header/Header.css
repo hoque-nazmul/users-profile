@@ -1,10 +1,13 @@
 .Header {
+    
+    background: #282c34;
+   
+}
+
+.Header-content {
+    margin: 0px 80px;
     display: flex;
     align-items: center;
-    padding: 0px 80px;
-    background: #282c34;
-    width: 100%;
-    
 }
 
 .Header .left h2 {
@@ -13,13 +16,8 @@
     font-size: 30px;
 }
 
-.Header .left {
-    width: 50%;
-}
-
 .Header .right {
     margin-left: auto;
-    width: 50%;
     display: flex;
     justify-content: center;
 }

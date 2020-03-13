@@ -1,0 +1,14 @@
+.UserController {
+    display: flex;
+    width: 100%;
+}
+
+.UsersPanel {
+    width: 80%;
+    margin-left: 80px;
+}
+
+.AddedUser {
+    width: 20%;
+    margin-right: 80px;
+}
