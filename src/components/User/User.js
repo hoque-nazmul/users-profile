@@ -1,10 +1,11 @@
 import React from 'react';
 import './User.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faPlus } from '@fortawesome/free-solid-svg-icons'
 
 const User = (props) => {
     const {img, name, email, phone, salary, profession} = props.users;
+    
     return (
         <div className="UserWrapper">
             <div className="UserContent">
@@ -15,8 +16,8 @@ const User = (props) => {
                 <p>Email: {email}</p>
                 <p>phone: {phone}</p>
                 <p>Yearly Salary:  &#36;{salary}</p>
-                <button className="btn addUser"><FontAwesomeIcon icon={faCoffee} /><span>Add User</span></button>
-                <button className="btn addedUser"><FontAwesomeIcon icon={faCoffee} /><span>Added User</span></button>
+                <button id="addBtn" onClick={() => props.addUserHandler(props.users)} className="btn addUser"><span className="btnIcon"><FontAwesomeIcon icon={faPlus} /></span><span className="btnText">Add User</span></button>
+                <button className="btn addedUser"><span className="btnIcon"><FontAwesomeIcon icon={faPlus} /></span><span className="btnText">Added User</span></button>
             </div>
         </div>
     );

@@ -56,12 +56,12 @@
     font-weight: 600;
 }
 
-.UserContent .btn span{
+.UserContent .btn .btnText{
     margin-left: 5px;
 }
 
-.UserContent .addUser {
-    
+.btnIcon {
+    color: #00CF5D;
 }
 
 .UserContent .addedUser {
