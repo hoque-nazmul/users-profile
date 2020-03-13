@@ -7,8 +7,8 @@ const AddedUserData = (props) => {
     
     return (
         <div className="AddedUsersData">
-            <h2>Hello , i am from {addedUser.length}</h2>
-            <h5>AddedUser Yearly Salary: {totalSalary}</h5>
+            <h2>Added User: <span>{addedUser.length}</span></h2>
+            <h5>Added Users Yearly Salary: <span>{totalSalary}</span></h5>
         </div>
     );
 };
