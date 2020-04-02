@@ -10,6 +10,8 @@ const AddedUserData = (props) => {
             <h2>Added User: <span>{addedUser.length}</span></h2>
             <h5>Added Users Yearly Salary: <span>{totalSalary}</span></h5>
         </div>
+
+        
     );
 };
 

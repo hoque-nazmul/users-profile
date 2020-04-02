@@ -8,7 +8,9 @@ import AddedUserData from '../AddedUserData/AddedUserData';
 
 const UserController = () => {
     const [users, setUsers] = useState(userData)
+   
     const [addedUser, setAddedUser] = useState([])
+    console.log(users);
     const addUser = (user) => {
         const newUser = [...addedUser, user];
         setAddedUser(newUser)
@@ -17,7 +19,7 @@ const UserController = () => {
         <div className="UserController">
             <div className="UsersPanel">
                 {
-                    users.map(user => <User addUserHandler={addUser} users={user}></User>)
+                    users.map(user => <User key={user.id} addUserHandler={addUser} users={user}></User>)
                 }
             </div>
             <div className="AddedUser">
