@@ -10,7 +10,6 @@ const UserController = () => {
     const [users, setUsers] = useState(userData)
    
     const [addedUser, setAddedUser] = useState([])
-    console.log(users);
     const addUser = (user) => {
         const newUser = [...addedUser, user];
         setAddedUser(newUser)

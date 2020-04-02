@@ -6,8 +6,6 @@ import { useState } from 'react';
 
 const User = (props) => {
     const [addedUser, setAddedUser] = useState(true);
-    const addedBtn = props.addedBtn;
-    console.log(addedBtn);
     const {img, name, email, phone, salary, profession} = props.users;
     
     return (

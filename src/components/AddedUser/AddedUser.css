@@ -1,0 +1,26 @@
+.addedUserContent{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border:1px solid gray;
+    margin-top: 10px;
+    padding: 5px 8px;
+    background-color: #282C34;
+    border-radius: 10px;
+}
+.addedUserImg img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.addedUserText h3{
+    margin: 5px 0px;
+    font-weight: 400;
+}
+
+.addedUserText p{
+    margin-top: 5px;
+}
