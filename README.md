@@ -29,7 +29,7 @@ $  npm start
 ```
 
 ### How I built it
-The web application is built on React.js, HTML5, CSS3 etc. 
+The web application is built on React.js, React Font Awesome, HTML5, CSS3 etc. 
 
 ### Useful Links
  - Demo: https://usersprofile.netlify.com/
